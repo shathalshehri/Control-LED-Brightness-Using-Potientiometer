@@ -17,23 +17,9 @@ This project demonstrates how to control the brightness of an LED using a potent
 
 ## Demo
 
-Watch the LED brightness control demo [here](https://github.com/shathalshehri/Control-LED-Brightness-Using-Potientiometer/blob/main/ControlLEDBrightnessDemo.MOV).
+To see how the LED brightness control works, you can watch the demo [here](https://github.com/shathalshehri/Control-LED-Brightness-Using-Potientiometer/blob/main/ControlLEDBrightnessDemo.MOV).
 
 ## Code
 
 The code to control the LED brightness using a potentiometer can be found in the [Control_LED_Brightness_with_aPotientiometer.ino](Control_LED_Brightness_with_aPotientiometer.ino) file.
-
-```cpp
-int potPin = A0;
-int potValue = 0;
-int brightness = 0;
-int ledPin = 6;
-
-void setup() {
-  Serial.begin(9600);
-  pinMode(ledPin, OUTPUT);
-}
-
-void loop() {
-  potValue =
 
